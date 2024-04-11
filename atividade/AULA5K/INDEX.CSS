@@ -1,0 +1,87 @@
+/* keyframes= desine uma animaçao
+keyframa indentifier= se refera ao nome da animaçao
+as etapas sa identificadas pala %colocadas no  */
+
+
+@keyframes mudacor {
+ 0%{
+    color: black; 
+ }
+  25%{
+      color: aquamarine;
+  }
+  50%{
+      color: red
+
+
+  }
+
+  75%{
+      color: blue;
+  }
+
+  100%{
+      color: blueviolet;
+  }
+}
+
+@keyframes pertubacao{
+
+  0%{
+      top: 0%;
+      background-image: url(imagem/mantanha.jpg);
+
+
+  }
+
+  25%{
+      top: 10%;
+      background-image: url(imagem/ilha\ p.jpg);
+      
+
+  }
+    50%{
+        top: 50%;
+       background-image: url(imagem/sol.jpg);
+    }
+
+}  
+
+    
+}
+
+h1{
+    /* name nome da animaçao */
+  animation-name: mudacor;
+  /* duraction =o quando que a animaçao vai demora */
+  animation-duration: 3s;
+  /* delay =o quando qua a animaçao vai demora para inicia */
+  animation-delay: 0s;
+
+  animation-iteration-count: 3;
+  /* animetio cout veses de repetiçao */
+}
+
+
+*{
+   padding: 0%;
+    margin: 0%;
+
+}
+
+
+#caixa{
+    
+    width: 300px;
+    height: 300px;
+    /* pisitio = muda o posicionamento do elemento */
+    /* absolute fica fora da hierarquia e aceita coordenadas( to, butom,left,rigt */
+    position: absolute;
+    animation-name: pertubacao;
+    background-color: blue;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    background-color: rgb(6, 94, 20);
+    animation: pertubacao 5s infinite;
+
+}
