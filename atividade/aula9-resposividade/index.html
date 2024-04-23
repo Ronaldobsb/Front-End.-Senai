@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" media="screen and (max-width 800px)" href="mobile.css">
+<!-- print = versao impressa do site -->
+<!-- screen and (orientation:portrait) = culular em modo retato (em pe) -->
+<!-- screen and (orientation:landscape) = culular em modo retato (deirtado) - -->
+<link rel="stylesheet" screen and="text.css">
+</head>
+<body>
+    <header>
+     <main>
+          <nav> 
+
+
+             <button id="btnmobile" onclick="btnmobiletrocar()" type="button">
+                <img src="menuIcon.svg" alt="menu menuIcon">
+
+            </button>
+
+
+              <ul id="menumobile">
+                <li> <a href="#">link</a></li>
+                <li> <a href="#">link</a></li>
+                <li> <a href="#">link</a></li>
+                <li> <a href="#">link</a></li>
+              
+
+              </ul>
+
+
+
+              <ul id="menuPc">
+              <li> <a href="#">link</a></li>
+              <li> <a href="#">link</a></li>
+              <li> <a href="#">link</a></li>
+              <li> <a href="#">link</a></li>
+            
+              </ul>
+          </nav>
+
+        </header>
+
+          <main>
+
+            <picture>
+                <source media="screen an (max-wist: 860px)" srcset="mulherdancandoMenor.jpg">
+                <img src="mulherdancando.jpg" alt="mulher dançando">
+
+            </picture>
+
+
+            <img src="mulherdancando.jpg" alt="mulher dançando">
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque ipsam fugiat mollitia alias repellat soluta ratione praesentium accusantium, sit culpa, quam tenetur dicta? Optio modi cupiditate eum reprehenderit reiciendis perferendis.</p>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi provident unde quisquam ipsa! Qui, vero sint? In eum et voluptas cumque deserunt delectus voluptatem, ratione suscipit nulla incidunt quam fugit!</p> 
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aspernatur omnis ex totam, quam accusamus culpa maxime mollitia neque dolores quia, minima ratione fugiat ipsa obcaecati aut dolore modi aperiam.</p> 
+
+
+
+          </main>
+
+
+
+    
+
+
+
+     <footer>
+      todos os direitos reservados!
+
+
+
+
+     </footer>
+
+
+     <script>
+        //  procedimento palavra()
+        // fimprocedimento
+
+        function btnmobiletrocar(){
+            if(menumobile.style.display=="flex"){
+                menumobile.style.display="none"
+            
+            }else{
+                menumobile.style.display="flex"
+            }
+
+        }
+
+
+     </script>
+
+
+
+
+
+
+</body>
+</html>
