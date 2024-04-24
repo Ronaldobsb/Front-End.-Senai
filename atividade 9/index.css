@@ -3,26 +3,86 @@
     padding: 0%;
 }
 
-header{
 
-    width: 100%;
-    padding: 10px 0px;
-    background-color: white;
+header{
+    background-color:black
+}
+
+
+.home{
     display: flex;
     justify-content: center;
-     align-items: center;
-     border: radius 100px; 
+    gap: 20px;
+}
+   
 
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
 }
 
-header img{
-    height: 400px;
-    width: auto;
-    display:flex;
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    justify-content: center;
+    border: 50px;
+    
+}
+
+
+    
+
+
+
+#foto{
+    width:500px;
+    height: 500px;
+    display: flex;
     justify-content: center;
 
-  
+   
 }
+  
+@media screen and (max-width : 860px){
+    main{
+        width: 80%;
+    }
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#rodape{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    justify-content: center;
+}
+
+footer{
+    padding: 10px;
+    background-color: black;
+}
+
+#topicos{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
 
 
 
