@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+  --corprimaria : #2A2B2A ;
+  --corsecundaria :#F5124B;
+  --blak :#1c1c1c;
+  --branco:ecedbe;
+  --fontprincipal:tr;
+  --tamanhfonttitulo:;
+}
+
+
+}
+
+
+header, footer{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:;
+  
+    
+   
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+header{
+    justify-content: space-around;
+
+}
+
+footer{
+    justify-content: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
